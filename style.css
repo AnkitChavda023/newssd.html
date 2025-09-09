@@ -1,0 +1,72 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+header h3 {
+  font-size: 1.2rem;
+  color: #3d3c3c;
+}
+
+nav .nav-link {
+  color: #ddd !important;
+  transition: color 0.3s ease;
+}
+
+nav .nav-link:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+section {
+  padding-top: 80px;   
+  margin-top: -80px;   
+}
+
+section h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+table {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #0d0c0c;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.light-text-row {
+  color: #f48282;
+}
+
+.clock {
+  font-size: 3rem;
+  margin-top: 10px;
+  color: #ccdae9;
+}
+
+footer {
+  margin-top: 25px;
+}
