@@ -69,6 +69,11 @@ section {
   padding-top: 80px;
   margin-top: -80px;
 }
+.mb-5, .my-5 {
+    margin-top: .1rem !important;
+    margin-bottom: 2rem !important;
+}
+
 section:hover {
   box-shadow: 0 12px 32px rgba(44, 62, 80, 0.18);
 }
@@ -144,3 +149,4 @@ button:hover, .btn:hover {
   background: linear-gradient(90deg, #5f2c82 0%, #283e51 100%);
   box-shadow: 0 4px 16px rgba(44, 62, 80, 0.18);
 }
+
